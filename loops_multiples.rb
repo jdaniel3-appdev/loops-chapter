@@ -19,3 +19,10 @@
 
 p "Enter a number:"
 
+users_number = gets.chomp.to_i
+counter = 1
+
+while counter <= 10
+  p counter * users_number
+  counter = counter + 1
+end
